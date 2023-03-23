@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -205,12 +206,21 @@ header #barraDeNavegacion a {
   color: #e6c6b4;
   font-size: 18px;
 }
-
 @media screen and (max-width: 376px) {
-  #publicacionesGrid {
+  #publicacionesGrid #publicacionesGrid {
     grid-template-areas: "art1" "art2" "art3" "art4" "art5";
     grid-template-columns: auto;
     grid-template-rows: 310px 260px 260px 310px 260px;
     font-size: 8px;
   }
+}
+
+.títuloPresentacionCafes {
+  margin-top: 12%;
+  display: flex;
+}
+
+.tiposDeCafes {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+header {
+    background-color: #68585E;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 30px;
+    position: fixed;
+
+    #logoCafe {
+        text-align: center;
+    }
+
+    #barraNav {
+        justify-content: flex-end;
+    }
+
+    #barraDeNavegacion {
+        background-color: #68585E !important;
+
+        a {
+            color: #E9E2C9 !important;
+            font-size: 20px;
+        }
+    }
+
+}

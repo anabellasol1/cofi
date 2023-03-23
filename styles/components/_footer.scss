@@ -1,0 +1,53 @@
+#pieDePagina {
+    display: flex;
+    flex-direction: row;
+    background-color: #68585E;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 30px;
+
+    .caja1Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        a {
+            text-decoration: none;
+            color: #E9E2C9;
+        }
+    }
+
+    .caja2Footer {
+        display: flex;
+        flex-direction: column;
+        color: #e0d5cf;
+
+        div {
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        a {
+            display: flex;
+            color: #E9E2C9;
+            align-items: center;
+        }
+    }
+
+    .caja3Footer h1 {
+        display: flex;
+        color: #E9E2C9;
+        font-size: 15px;
+}
+}

@@ -1,0 +1,42 @@
+#imgBanner {
+    margin-top: 4%;
+    width: 100%;
+}
+
+.fraseHome {
+    background-color: #81606c;
+    height: 100px;
+    color: #e0d5cf;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bienvenida {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #313131;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: #e6c6b4;
+    font-size: 18px;
+
+    div {
+        padding-top: 36px;
+        justify-content: center;
+    }
+}
+
+#newsletter {
+    background-color: #e6c6b4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+}

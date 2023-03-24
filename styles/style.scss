@@ -4,9 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+@import "../styles/Abstract/variables";
 @import "../styles/components/navbar";
 @import "../styles/components/footer";
 @import "../styles/pages/home";
 @import "../styles/pages/tips";
 @import "../styles/pages/productos";
+@import "../styles/pages/contacto";

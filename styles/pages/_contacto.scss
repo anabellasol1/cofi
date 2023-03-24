@@ -1,0 +1,17 @@
+.tituloForm {
+    height: 100px;
+    background-color: $color-principal;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.cuerpoForm {
+    display: flex;
+    justify-content: left;
+    padding-left: 24px;
+    margin: 2px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}

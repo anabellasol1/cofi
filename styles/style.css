@@ -429,6 +429,27 @@ header #barraDeNavegacion a {
     height: 200px;
     width: 200px;
   }
+  #newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  /**Footer**/
+  #pieDePagina {
+    padding: 10px;
+    font-size: 15px;
+  }
+  #pieDePagina .caja2Footer img {
+    height: 20px;
+    width: 20px;
+  }
+  #pieDePagina .caja3Footer {
+    padding: 9px;
+    text-align: center;
+  }
+  #pieDePagina .caja3Footer h1 {
+    font-size: 12px;
+  }
   #publicacionesGrid {
     margin-top: 200px;
     margin-bottom: 20px;

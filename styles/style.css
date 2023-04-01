@@ -205,14 +205,6 @@ header #barraDeNavegacion a {
   color: #e6c6b4;
   font-size: 18px;
 }
-@media screen and (max-width: 376px) {
-  #publicacionesGrid #publicacionesGrid {
-    grid-template-areas: "art1" "art2" "art3" "art4" "art5";
-    grid-template-columns: auto;
-    grid-template-rows: 310px 260px 260px 310px 260px;
-    font-size: 8px;
-  }
-}
 
 .bodyproductos {
   background-color: #313131;
@@ -232,6 +224,9 @@ header #barraDeNavegacion a {
 
 .cafe1 {
   grid-area: cafe1;
+  width: 300px;
+  height: 180px;
+  overflow: hidden;
 }
 .cafe1 .tituloCafe {
   font-size: 1.5em;
@@ -240,11 +235,17 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 7px;
 }
 .cafe1 img {
   border-radius: 5px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.9s ease;
+  width: 100%;
+}
+.cafe1 img:hover {
+  transform: scale(1.1);
 }
 
 .cafe2 {
@@ -257,7 +258,7 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .cafe2 img {
   border-radius: 5px;
@@ -274,7 +275,7 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .cafe3 img {
   border-radius: 5px;
@@ -291,7 +292,7 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .cafe4 img {
   border-radius: 5px;
@@ -308,7 +309,7 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .cafe5 img {
   border-radius: 5px;
@@ -325,7 +326,7 @@ header #barraDeNavegacion a {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .cafe6 img {
   border-radius: 5px;
@@ -406,4 +407,34 @@ header #barraDeNavegacion a {
 .tercerParrafoNosotros iframe {
   border-radius: 10px;
   box-shadow: 2px;
+}
+
+@media screen and (max-width: 376px) {
+  /**Home**/
+  #imgBanner {
+    margin-top: 150px;
+  }
+  .fraseHome {
+    background-color: #81606c;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+  #bienvenida {
+    height: 400px;
+    font-size: 16px;
+  }
+  #bienvenida img {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  #publicacionesGrid {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: "art1" "art2" "art3" "art4" "art5";
+    grid-template-columns: auto;
+    grid-template-rows: 400px 290px 290px 290px 290px;
+  }
 }/*# sourceMappingURL=style.css.map */

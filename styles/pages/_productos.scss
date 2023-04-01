@@ -18,6 +18,9 @@
 
 .cafe1 {
     grid-area: cafe1;
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
 
     .tituloCafe {
         font-size: 1.5em;
@@ -26,14 +29,28 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        margin: 7px;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+        -webkit-transition: all .9s ease;
+        width: 100%;
+
+
+    }
+
+    img:hover {
+        -webkit-transform: scale(1.10);
+        -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+        -o-transform: scale(1.10);
+        transform: scale(1.10);
+    }
 }
- }
+
 
 .cafe2 {
     grid-area: cafe2;
@@ -45,13 +62,13 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
 }
 
 .cafe3 {
@@ -64,13 +81,13 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
 }
 
 .cafe4 {
@@ -83,13 +100,13 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
 }
 
 .cafe5 {
@@ -102,13 +119,13 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
 }
 
 .cafe6 {
@@ -121,11 +138,11 @@
         color: white;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    img{
+    img {
         border-radius: 5px;
-        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
 }

@@ -450,6 +450,24 @@ header #barraDeNavegacion a {
   #pieDePagina .caja3Footer h1 {
     font-size: 12px;
   }
+  /**Nosotros**/
+  .primerParrafoNosotros {
+    margin-top: 150px;
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .primerParrafoNosotros p {
+    padding: 20px;
+    text-align: center;
+  }
+  .segundoParrafoNosotros {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .segundoParrafoNosotros p {
+    padding: 20px;
+    text-align: center;
+  }
   #publicacionesGrid {
     margin-top: 200px;
     margin-bottom: 20px;

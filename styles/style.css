@@ -214,10 +214,122 @@ header #barraDeNavegacion a {
   }
 }
 
-.tiposDeCafes {
-  margin-top: 10%;
+.bodyproductos {
+  background-color: #313131;
+}
+
+#cafesGrid {
+  margin: 1.6em;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  width: 90%;
+  display: grid;
+  grid-template-areas: "cafe1 cafe2 cafe3" "cafe4 cafe5 cafe6";
+  grid-template-columns: 250px 250px 250px;
+  justify-content: space-around;
+  gap: 6.1em;
+}
+
+.cafe1 {
+  grid-area: cafe1;
+}
+.cafe1 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cafe1 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cafe2 {
+  grid-area: cafe2;
+}
+.cafe2 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cafe2 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cafe3 {
+  grid-area: cafe3;
+}
+.cafe3 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cafe3 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cafe4 {
+  grid-area: cafe4;
+}
+.cafe4 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cafe4 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cafe5 {
+  grid-area: cafe5;
+}
+.cafe5 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cafe5 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cafe6 {
+  grid-area: cafe6;
+}
+.cafe6 .tituloCafe {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cafe6 img {
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .tituloForm {

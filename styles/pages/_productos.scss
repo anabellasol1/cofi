@@ -1,5 +1,131 @@
-.tiposDeCafes{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
+.bodyproductos {
+    background-color: $color-oscuro;
+}
+
+#cafesGrid {
+    margin: 1.6em;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    width: 90%;
+    display: grid;
+    grid-template-areas:
+        "cafe1 cafe2 cafe3"
+        "cafe4 cafe5 cafe6";
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-around;
+    gap: 6.1em;
+}
+
+.cafe1 {
+    grid-area: cafe1;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+ }
+
+.cafe2 {
+    grid-area: cafe2;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+}
+
+.cafe3 {
+    grid-area: cafe3;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+}
+
+.cafe4 {
+    grid-area: cafe4;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+}
+
+.cafe5 {
+    grid-area: cafe5;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+}
+
+.cafe6 {
+    grid-area: cafe6;
+
+    .tituloCafe {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
 }

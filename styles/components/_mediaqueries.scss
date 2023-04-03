@@ -29,49 +29,89 @@
         padding: 20px;
     }
 
-/**Footer**/
-#pieDePagina{
-    padding: 10px;
-    font-size: 15px;
+    /**Nav**/
+    header{
 
-    .caja2Footer{
-        img{ 
-height: 20px;
-width: 20px;
+        #logoCafe{
+            img{
+                width: 200px;
+                height: 110px;
+            }
+        }
+        a{
+            font-size: 15px !important; 
         }
     }
 
-    .caja3Footer{
-        padding: 9px;
-        text-align: center;
+    /**Footer**/
+    #pieDePagina {
+        padding: 10px;
+        font-size: 15px;
 
-        h1{
-            font-size: 12px;
+        .caja2Footer {
+            img {
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        .caja3Footer {
+            padding: 9px;
+            text-align: center;
+
+            h1 {
+                font-size: 12px;
+            }
         }
     }
-}
 
-/**Nosotros**/
-.primerParrafoNosotros{
-    margin-top: 150px;
-    font-size: 12px;
-    padding-top: 13px;
+    /**Nosotros**/
+    .primerParrafoNosotros {
+        margin-top: 150px;
+        font-size: 12px;
+        padding-top: 13px;
 
-    p{
-        padding: 20px;
-        text-align: center;
+        p {
+            padding: 20px;
+            text-align: center;
+        }
     }
-}
 
-.segundoParrafoNosotros{
-    font-size: 12px;
-    padding-top: 13px;
+    .segundoParrafoNosotros {
+        font-size: 12px;
+        padding-top: 13px;
 
-    p{
-        padding: 20px;
-        text-align: center;
+        p {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            height: 250px;
+            width: 300px;
+        }
     }
-}
+
+    .tercerParrafoNosotros {
+        height: 400px;
+        font-size: 14px;
+        justify-content: center;
+
+        h1 {
+            padding-top: 20px;
+        }
+
+        p {
+            padding: 20px;
+            padding-top: 20px;
+
+            .mapa {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
 
     #publicacionesGrid {
         margin-top: 200px;

@@ -434,6 +434,14 @@ header #barraDeNavegacion a {
     justify-content: space-between;
     padding: 20px;
   }
+  /**Nav**/
+  header #logoCafe img {
+    width: 200px;
+    height: 110px;
+  }
+  header a {
+    font-size: 15px !important;
+  }
   /**Footer**/
   #pieDePagina {
     padding: 10px;
@@ -467,6 +475,26 @@ header #barraDeNavegacion a {
   .segundoParrafoNosotros p {
     padding: 20px;
     text-align: center;
+  }
+  .segundoParrafoNosotros img {
+    height: 250px;
+    width: 300px;
+  }
+  .tercerParrafoNosotros {
+    height: 400px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  .tercerParrafoNosotros h1 {
+    padding-top: 20px;
+  }
+  .tercerParrafoNosotros p {
+    padding: 20px;
+    padding-top: 20px;
+  }
+  .tercerParrafoNosotros p .mapa {
+    width: 400px;
+    height: 400px;
   }
   #publicacionesGrid {
     margin-top: 200px;

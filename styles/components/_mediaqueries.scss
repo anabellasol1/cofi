@@ -2,7 +2,7 @@
 
     /**Home**/
     #imgBanner {
-        margin-top: 150px;
+        margin-top: 110px;
     }
 
     .fraseHome {
@@ -13,8 +13,9 @@
     }
 
     #bienvenida {
-        height: 400px;
-        font-size: 16px;
+        height: 500px;
+        font-size: 15px;
+        text-align: center;
 
         img {
             margin-top: 20px;
@@ -27,6 +28,16 @@
         display: flex;
         justify-content: space-between;
         padding: 20px;
+        height: 250px;
+        padding-bottom: 50px;
+        font-size: 15px;
+
+        .formHome{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.1em;
+        }
     }
 
     /**Nav**/
@@ -67,9 +78,14 @@
 
     /**Nosotros**/
     .primerParrafoNosotros {
-        margin-top: 150px;
+        margin-top: 110px;
         font-size: 12px;
         padding-top: 13px;
+        height: 600px;
+
+        h1{
+            padding-top: 12px;
+        }
 
         p {
             padding: 20px;
@@ -80,14 +96,19 @@
     .segundoParrafoNosotros {
         font-size: 12px;
         padding-top: 13px;
+        height: 510px;
+
+        h1{
+            padding-top: 20px;
+        }
 
         p {
-            padding: 20px;
+            padding: 24px;
             text-align: center;
         }
 
         img {
-            height: 250px;
+            height: 230px;
             width: 300px;
         }
     }
@@ -102,8 +123,9 @@
         }
 
         p {
-            padding: 20px;
+            padding: 10px;
             padding-top: 20px;
+            text-align: center;
 
             .mapa {
                 width: 400px;
@@ -112,10 +134,12 @@
         }
     }
 
+    /**Tips**/
 
     #publicacionesGrid {
-        margin-top: 200px;
-        margin-bottom: 20px;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        height: 3000px;
         display: grid;
         grid-template-areas:
             "art1"
@@ -124,6 +148,66 @@
             "art4"
             "art5";
         grid-template-columns: auto;
-        grid-template-rows: 400px 290px 290px 290px 290px
+        grid-template-rows: 450px 450px 450px 450px 1050px;
+
+        .nota1{
+            font-size: 13px;
+
+            h1{
+                font-size: 25px;
+            }
+
+            a{
+                font-size: 13px;
+            }
+        }
+
+        .nota2{
+            font-size: 13px;
+
+            h1{
+                font-size: 25px;
+            }
+            
+            a{
+                font-size: 13px;
+            }
+        }
+
+        .nota3{
+            font-size: 13px;
+
+            h1{
+                font-size: 25px;
+            }
+
+            a{
+                font-size: 13px;
+            }
+        }
+
+        .nota4{
+            font-size: 13px;
+
+            h1{
+                font-size: 25px;
+            }
+
+            a{
+                font-size: 13px;
+            }
+        }
+
+        .nota5{
+            font-size: 13px;
+
+            h1{
+                font-size: 25px;
+            }
+
+            a{
+                font-size: 13px;
+            }
+        }
     }
 }

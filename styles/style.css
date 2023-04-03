@@ -412,7 +412,7 @@ header #barraDeNavegacion a {
 @media screen and (max-width: 376px) {
   /**Home**/
   #imgBanner {
-    margin-top: 150px;
+    margin-top: 110px;
   }
   .fraseHome {
     background-color: #81606c;
@@ -421,8 +421,9 @@ header #barraDeNavegacion a {
     text-align: center;
   }
   #bienvenida {
-    height: 400px;
-    font-size: 16px;
+    height: 500px;
+    font-size: 15px;
+    text-align: center;
   }
   #bienvenida img {
     margin-top: 20px;
@@ -433,6 +434,15 @@ header #barraDeNavegacion a {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    height: 250px;
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  #newsletter .formHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1em;
   }
   /**Nav**/
   header #logoCafe img {
@@ -460,9 +470,13 @@ header #barraDeNavegacion a {
   }
   /**Nosotros**/
   .primerParrafoNosotros {
-    margin-top: 150px;
+    margin-top: 110px;
     font-size: 12px;
     padding-top: 13px;
+    height: 600px;
+  }
+  .primerParrafoNosotros h1 {
+    padding-top: 12px;
   }
   .primerParrafoNosotros p {
     padding: 20px;
@@ -471,13 +485,17 @@ header #barraDeNavegacion a {
   .segundoParrafoNosotros {
     font-size: 12px;
     padding-top: 13px;
+    height: 510px;
+  }
+  .segundoParrafoNosotros h1 {
+    padding-top: 20px;
   }
   .segundoParrafoNosotros p {
-    padding: 20px;
+    padding: 24px;
     text-align: center;
   }
   .segundoParrafoNosotros img {
-    height: 250px;
+    height: 230px;
     width: 300px;
   }
   .tercerParrafoNosotros {
@@ -489,19 +507,67 @@ header #barraDeNavegacion a {
     padding-top: 20px;
   }
   .tercerParrafoNosotros p {
-    padding: 20px;
+    padding: 10px;
     padding-top: 20px;
+    text-align: center;
   }
   .tercerParrafoNosotros p .mapa {
     width: 400px;
     height: 400px;
   }
+  /**Tips**/
   #publicacionesGrid {
-    margin-top: 200px;
-    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    height: 3000px;
     display: grid;
     grid-template-areas: "art1" "art2" "art3" "art4" "art5";
     grid-template-columns: auto;
-    grid-template-rows: 400px 290px 290px 290px 290px;
+    grid-template-rows: 450px 450px 450px 450px 1050px;
+  }
+  #publicacionesGrid .nota1 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota1 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota1 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota2 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota2 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota2 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota3 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota3 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota3 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota4 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota4 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota4 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota5 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota5 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota5 a {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */

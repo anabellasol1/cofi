@@ -259,3 +259,266 @@ p{
             }
         }
     }
+
+    @media screen and (max-width: 768px) {
+
+        /**Home**/
+        #imgBanner {
+            margin-top: 110px;
+        }
+    
+        .fraseHome {
+            font-size: 25px;
+        }
+    
+        #bienvenida {
+            height: 500px;
+            font-size: 18px;
+            text-align: center;
+    
+            img {
+                margin-top: 20px;
+                height: 400px;
+                width: 400px;
+            }
+        }
+    
+        #newsletter {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            height: 300px;
+            padding-bottom: 200px;
+            padding-top: 30px;
+            font-size: 20px;
+    
+            .formHome {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.1em;
+            }
+        }
+    
+        /**Nav**/
+        header {
+    
+            #logoCafe {
+                img {
+                    width: 250px;
+                    height: 150px;
+                }
+            }
+    
+            a {
+                font-size: 20px !important;
+            }
+        }
+    
+        /**Footer**/
+        #pieDePagina {
+            padding: 10px;
+            font-size: 16px;
+    
+            .caja2Footer {
+                img {
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+    
+            .caja3Footer {
+                padding: 9px;
+                text-align: center;
+    
+                h1 {
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        /**Nosotros**/
+        .primerParrafoNosotros {
+            margin-top: 130px;
+            font-size: 18px;
+            padding-top: 30px;
+            height: 650px;
+    
+            h1 {
+                padding-top: 12px;
+            }
+    
+            p {
+                padding: 20px;
+                text-align: center;
+            }
+        }
+    
+        .segundoParrafoNosotros {
+            font-size: 18px;
+            padding-top: 13px;
+            height: 600px;
+    
+            h1 {
+                padding-top: 20px;
+            }
+    
+            p {
+                padding: 24px;
+                text-align: center;
+            }
+    
+            img {
+                height: 300px;
+                width: 400px;
+            }
+        }
+    
+        .tercerParrafoNosotros {
+            height: 400px;
+            font-size: 18px;
+            justify-content: center;
+    
+            h1 {
+                padding-top: 20px;
+            }
+    
+            p {
+                padding: 10px;
+                padding-top: 20px;
+                text-align: center;
+    
+                .mapa {
+                    width: 350px;
+                    height: 300px;
+                }
+            }
+        }
+    
+        /**Productos**/
+    
+        #cafesGrid {
+            height: 1700px;
+            margin-top: 180px;
+            margin-bottom: 100px;
+            display: grid;
+            grid-template-areas:
+                "cafe1"
+                "cafe2"
+                "cafe3"
+                "cafe4"
+                "cafe5"
+                "cafe6";
+            grid-template-columns: auto;
+            grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    a{
+        font-size: 25px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+
+    }
+    
+    
+    /**Contacto**/
+    .bannerContacto{
+        margin-top: 151px;
+    }
+    
+    .tituloForm {
+        height: 70px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cuerpoForm {
+        padding-left: 11px;
+        margin: 2px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        font-size: 20px;
+        height: 500px;
+    }
+    
+            /**Tips**/
+    
+            #publicacionesGrid {
+                margin-top: 230px;
+                margin-bottom: 10px;
+                height: 4300px;
+                display: grid;
+                grid-template-areas:
+                    "art1"
+                    "art2"
+                    "art3"
+                    "art4"
+                    "art5";
+                grid-template-columns: auto;
+                grid-template-rows: 650px  650px  650px 670px 1520px;
+    
+                .nota1 {
+                    font-size: 18px;
+    
+                    h1 {
+                        font-size: 25px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+    
+                .nota2 {
+                    font-size: 18px;
+    
+                    h1 {
+                        font-size: 25px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+    
+                .nota3 {
+                    font-size: 18px;
+    
+                    h1 {
+                        font-size: 25px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+    
+                .nota4 {
+                    font-size: 18px;
+    
+                    h1 {
+                        font-size: 25px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+    
+                .nota5 {
+                    font-size: 18px;
+                    justify-content: space-between;
+    
+                    h1 {
+                        font-size: 25px;
+                    }
+    
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+

@@ -129,8 +129,8 @@
             text-align: center;
 
             .mapa {
-                width: 400px;
-                height: 400px;
+                width: 250px;
+                height: 200px;
             }
         }
     }
@@ -162,6 +162,25 @@ p{
      }
 
 
+/**Contacto**/
+.bannerContacto{
+    margin-top: 110px;
+}
+
+.tituloForm {
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpoForm {
+    padding-left: 11px;
+    margin: 2px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-size: 12px;
+}
 
         /**Tips**/
 

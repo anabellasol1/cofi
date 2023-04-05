@@ -39,4 +39,10 @@
     flex-direction: column;
     height: 250px;
     justify-content: center;
+    gap: 1.3em;
+
+    #email{
+        border-color: $color-principal;
+        border-radius: 10px;
+    }
 }

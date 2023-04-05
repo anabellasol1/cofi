@@ -5,6 +5,8 @@
     text-align: center;
     align-items: center;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .cuerpoForm {
@@ -14,4 +16,14 @@
     margin: 2px;
     padding-top: 55px;
     padding-bottom: 55px;
+
+    .mb-3{
+        color: $color-oscuro;
+    }
+
+    .btn { 
+        background-color: $color-oscuro;
+        color: $color-manteca;
+        border-color: $color-oscuro;
+    }
 }

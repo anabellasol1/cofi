@@ -1,16 +1,17 @@
 .primerParrafoNosotros{
     background-color: $color-oscuro;
-    margin-top: 11%;
+    margin-top: 150px;
     display: flex;
     height: 40%;
     flex-direction: column;
     padding-left: 1%;
     padding-bottom: 5%;
+    padding-top: 20px;
         
     align-items: center;
 
     h1{
-        color: antiquewhite;
+        color: $color-claro;
         align-items: center;
     }
     p {
@@ -27,9 +28,10 @@
     padding-bottom: 5%;
     box-shadow: 2px 2px 30px;
     align-items: center;
+    padding-top: 20px;
 
     h1{
-        color: antiquewhite;
+        color: $color-oscuro;
         align-items: center;
     }
     p {
@@ -46,9 +48,10 @@
     padding-bottom: 5%;
     box-shadow: 2px 2px 30px;
     align-items: center;
+    padding-top: 30px;
 
     h1{
-        color: antiquewhite;
+        color: $color-claro;
         align-items: center;
     }
     p {

@@ -14,6 +14,7 @@ header {
   justify-content: space-between;
   box-shadow: 2px 2px 30px;
   position: fixed;
+  z-index: 2;
 }
 header #logoCafe {
   text-align: center;
@@ -437,201 +438,6 @@ header #barraDeNavegacion a:hover {
   box-shadow: 2px;
 }
 
-@media screen and (max-width: 376px) {
-  /**Home**/
-  #imgBanner {
-    margin-top: 110px;
-  }
-  .fraseHome {
-    background-color: #81606c;
-    font-size: 18px;
-    padding: 20px;
-    text-align: center;
-  }
-  #bienvenida {
-    height: 500px;
-    font-size: 15px;
-    text-align: center;
-  }
-  #bienvenida img {
-    margin-top: 20px;
-    height: 200px;
-    width: 200px;
-  }
-  #newsletter {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    height: 250px;
-    padding-bottom: 50px;
-    font-size: 15px;
-  }
-  #newsletter .formHome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.1em;
-  }
-  /**Nav**/
-  header #logoCafe img {
-    width: 200px;
-    height: 110px;
-  }
-  header a {
-    font-size: 15px !important;
-  }
-  /**Footer**/
-  #pieDePagina {
-    padding: 10px;
-    font-size: 15px;
-  }
-  #pieDePagina .caja2Footer img {
-    height: 20px;
-    width: 20px;
-  }
-  #pieDePagina .caja3Footer {
-    padding: 9px;
-    text-align: center;
-  }
-  #pieDePagina .caja3Footer h1 {
-    font-size: 12px;
-  }
-  /**Nosotros**/
-  .primerParrafoNosotros {
-    margin-top: 110px;
-    font-size: 12px;
-    padding-top: 13px;
-    height: 600px;
-  }
-  .primerParrafoNosotros h1 {
-    padding-top: 12px;
-  }
-  .primerParrafoNosotros p {
-    padding: 20px;
-    text-align: center;
-  }
-  .segundoParrafoNosotros {
-    font-size: 12px;
-    padding-top: 13px;
-    height: 510px;
-  }
-  .segundoParrafoNosotros h1 {
-    padding-top: 20px;
-  }
-  .segundoParrafoNosotros p {
-    padding: 24px;
-    text-align: center;
-  }
-  .segundoParrafoNosotros img {
-    height: 230px;
-    width: 300px;
-  }
-  .tercerParrafoNosotros {
-    height: 400px;
-    font-size: 14px;
-    justify-content: center;
-  }
-  .tercerParrafoNosotros h1 {
-    padding-top: 20px;
-  }
-  .tercerParrafoNosotros p {
-    padding: 10px;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .tercerParrafoNosotros p .mapa {
-    width: 250px;
-    height: 200px;
-  }
-  /**Productos**/
-  #cafesGrid {
-    height: 1700px;
-    margin-top: 120px;
-    margin-bottom: 100px;
-    display: grid;
-    grid-template-areas: "cafe1" "cafe2" "cafe3" "cafe4" "cafe5" "cafe6";
-    grid-template-columns: auto;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
-  }
-  #cafesGrid a {
-    font-size: 18px;
-  }
-  #cafesGrid p {
-    font-size: 14px;
-  }
-  /**Contacto**/
-  .bannerContacto {
-    margin-top: 110px;
-  }
-  .tituloForm {
-    height: 70px;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-  }
-  .cuerpoForm {
-    padding-left: 11px;
-    margin: 2px;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    font-size: 12px;
-  }
-  /**Tips**/
-  #publicacionesGrid {
-    margin-top: 150px;
-    margin-bottom: 10px;
-    height: 3000px;
-    display: grid;
-    grid-template-areas: "art1" "art2" "art3" "art4" "art5";
-    grid-template-columns: auto;
-    grid-template-rows: 450px 450px 450px 450px 1050px;
-  }
-  #publicacionesGrid .nota1 {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota1 h1 {
-    font-size: 25px;
-  }
-  #publicacionesGrid .nota1 a {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota2 {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota2 h1 {
-    font-size: 25px;
-  }
-  #publicacionesGrid .nota2 a {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota3 {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota3 h1 {
-    font-size: 25px;
-  }
-  #publicacionesGrid .nota3 a {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota4 {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota4 h1 {
-    font-size: 25px;
-  }
-  #publicacionesGrid .nota4 a {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota5 {
-    font-size: 13px;
-  }
-  #publicacionesGrid .nota5 h1 {
-    font-size: 25px;
-  }
-  #publicacionesGrid .nota5 a {
-    font-size: 13px;
-  }
-}
 @media screen and (max-width: 768px) {
   /**Home**/
   #imgBanner {
@@ -825,5 +631,200 @@ header #barraDeNavegacion a:hover {
   }
   #publicacionesGrid .nota5 a {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 376px) {
+  /**Home**/
+  #imgBanner {
+    margin-top: 110px;
+  }
+  .fraseHome {
+    background-color: #81606c;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+  #bienvenida {
+    height: 500px;
+    font-size: 15px;
+    text-align: center;
+  }
+  #bienvenida img {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  #newsletter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 250px;
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  #newsletter .formHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1em;
+  }
+  /**Nav**/
+  header #logoCafe img {
+    width: 200px;
+    height: 110px;
+  }
+  header a {
+    font-size: 15px !important;
+  }
+  /**Footer**/
+  #pieDePagina {
+    padding: 10px;
+    font-size: 15px;
+  }
+  #pieDePagina .caja2Footer img {
+    height: 20px;
+    width: 20px;
+  }
+  #pieDePagina .caja3Footer {
+    padding: 9px;
+    text-align: center;
+  }
+  #pieDePagina .caja3Footer h1 {
+    font-size: 12px;
+  }
+  /**Nosotros**/
+  .primerParrafoNosotros {
+    margin-top: 110px;
+    font-size: 12px;
+    padding-top: 13px;
+    height: 600px;
+  }
+  .primerParrafoNosotros h1 {
+    padding-top: 12px;
+  }
+  .primerParrafoNosotros p {
+    padding: 20px;
+    text-align: center;
+  }
+  .segundoParrafoNosotros {
+    font-size: 12px;
+    padding-top: 13px;
+    height: 510px;
+  }
+  .segundoParrafoNosotros h1 {
+    padding-top: 20px;
+  }
+  .segundoParrafoNosotros p {
+    padding: 24px;
+    text-align: center;
+  }
+  .segundoParrafoNosotros img {
+    height: 230px;
+    width: 300px;
+  }
+  .tercerParrafoNosotros {
+    height: 400px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  .tercerParrafoNosotros h1 {
+    padding-top: 20px;
+  }
+  .tercerParrafoNosotros p {
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .tercerParrafoNosotros p .mapa {
+    width: 250px;
+    height: 200px;
+  }
+  /**Productos**/
+  #cafesGrid {
+    height: 1700px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-areas: "cafe1" "cafe2" "cafe3" "cafe4" "cafe5" "cafe6";
+    grid-template-columns: auto;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  }
+  #cafesGrid a {
+    font-size: 18px;
+  }
+  #cafesGrid p {
+    font-size: 14px;
+  }
+  /**Contacto**/
+  .bannerContacto {
+    margin-top: 110px;
+  }
+  .tituloForm {
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .cuerpoForm {
+    padding-left: 11px;
+    margin: 2px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-size: 12px;
+  }
+  /**Tips**/
+  #publicacionesGrid {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    height: 3000px;
+    display: grid;
+    grid-template-areas: "art1" "art2" "art3" "art4" "art5";
+    grid-template-columns: auto;
+    grid-template-rows: 450px 450px 450px 450px 1050px;
+  }
+  #publicacionesGrid .nota1 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota1 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota1 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota2 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota2 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota2 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota3 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota3 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota3 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota4 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota4 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota4 a {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota5 {
+    font-size: 13px;
+  }
+  #publicacionesGrid .nota5 h1 {
+    font-size: 25px;
+  }
+  #publicacionesGrid .nota5 a {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */

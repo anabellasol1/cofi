@@ -37,12 +37,24 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     justify-content: center;
     gap: 1.3em;
 
     #email{
         border-color: $color-principal;
         border-radius: 10px;
+    }
+
+    .form-check{
+        padding-left: 8em;
+        margin-top: 25px;
+    }
+
+    .btn{
+        background-color: $color-oscuro;
+        color: $color-manteca;
+        border-color: $color-oscuro;
+        
     }
 }

@@ -118,13 +118,22 @@ header #barraDeNavegacion a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 250px;
+  height: 350px;
   justify-content: center;
   gap: 1.3em;
 }
 #newsletter #email {
   border-color: #9b7583;
   border-radius: 10px;
+}
+#newsletter .form-check {
+  padding-left: 8em;
+  margin-top: 25px;
+}
+#newsletter .btn {
+  background-color: #313131;
+  color: #E9E2C9;
+  border-color: #313131;
 }
 
 .bodyTips {
@@ -460,7 +469,7 @@ header #barraDeNavegacion a:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    height: 300px;
+    height: 350px;
     padding-bottom: 200px;
     padding-top: 30px;
     font-size: 20px;
@@ -470,6 +479,13 @@ header #barraDeNavegacion a:hover {
     flex-direction: column;
     align-items: center;
     gap: 1.1em;
+  }
+  #newsletter .form-check {
+    padding-left: 0.3em;
+    margin-top: 5px;
+  }
+  #newsletter .btn {
+    font-size: 15px;
   }
   /**Nav**/
   header #logoCafe img {
@@ -661,6 +677,13 @@ header #barraDeNavegacion a:hover {
     height: 250px;
     padding-bottom: 50px;
     font-size: 15px;
+  }
+  #newsletter .form-check {
+    padding-left: 1em;
+    margin-top: 5px;
+  }
+  #newsletter .btn {
+    font-size: 10px;
   }
   #newsletter .formHome {
     display: flex;
